@@ -1442,7 +1442,7 @@ ol.unstyled,
 }
 .page .page-header .page-header-content  > .page-back {
   position: absolute;
-  top: 34px;
+  top: 50px; //34px
   left: 30px;
 }
 .page .page-header .page-header-content .user-login {
