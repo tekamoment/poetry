@@ -17,6 +17,13 @@ function poetryAnalysis() {
 
 }
 
+function crankRevised() {
+var headerHTML = "<h2>	crank models - revised version </h2>";
+var generosityTitle = "<h3> generosity </h3>";
+document.getElementById('heading').innerHTML = headerHTML;	
+document.getElementById('contentArea').innerHTML = generosityTitle;
+}
+
 function singaporeOriginal() {
 	var headerHTML = "<h2>	singapore - original version </h2>";
 	var poemHTML = "<p> A poem is alive</p> <p> Spurring from the inside </p> <p> A poem is a tear </p> <p> From someone's many fears </p> <p> A poem is a smile </p><p> From moments all worthwhile </p> <p> A poem is a light </p> <p> Shining from day to night </p> <p> Poems will be forevermore </p><p> From first light, 'till final war. </p>";
@@ -66,8 +73,13 @@ function treesAnalysis() {
 }
 
 function treesRevised() {
-	var newHTML = "<h2>	trees - revised analysis</h2>";
-	var poemHTML = "";
-	document.getElementById('heading').innerHTML = newHTML;
-	document.getElementById('contentArea').innerHTML = poemHTML;
+	var headerHTML = "<h2>	trees - revised analysis </h2>";
+	var paragraph1HTML = "<p>The poem “Trees” by poet Joyce Kilmer published in 1919 is an example of classic, structured poetry. “Trees” is a lyric, with strict conformation to rhythm and rhyme, a set quantity of lines and verses and themed around either life, death, love or, in the case of this poem, flora. Its classic classification is also justified through the presence of vintage language, and its publication in the first half of the 20th century.</p>";
+	var paragraph2HTML = "<p>Despite the fact that it is a classic, the language of the poem is only slightly traditional, in contrast to the verbose and flowery language of poems at the time. Someone who reads the poem today can assume that the poem was written recently due to the simplicity of the language used. Lines are constructed as simple sentence fragments, and have similar features, such as language and grammatical structure, as the speech of today.</p>";
+	var paragraph3HTML = "<p>The poem is organized into six stanzas of two lines each, with each line conforming to a certain length determined by the rhythm of iambic tetrameter. “Tree”’s rhyme scheme is AABBCCDDEEAA. This shows that the poem is composed of six rhyming couplets, with the final couplet having the same rhyme as the first stanza. </p>";
+	var paragraph4HTML = "<p>““Tree” is based around the author’s love and admiration for trees, and thanking God for their creation. The poem begins with the author’s acclamation that there “will never be a poem / as lovely as a tree”. Throughout the poem a tree is not referred to as an inanimsate object; rather, the tree is seen as a majestic creation only feasible through the power of God. This is seen through the author’s description of what makes a tree beautiful; its skyward stature, its connection to the bosom of the earth, its summer garb, its winter dress. The author contrasts each pair of ideas to convey the versatility of the tree in all situations: from the treetops pointing at the sky to the roots, hugging the earth, in the cold times of winter and in the heat of summer. The poem concludes with the author’s humble admission that “poems are created by fools like me / but only God can make a tree”. Through the very gracious language utilized by the author, it makes the poem feel like a prayer to God; to give thanks for the wonderful creation that is the tree. </p>";
+	var paragraph5HTML = "<p>ASK JILL FOR HELP WITH THIS PARAGRAPH.</p>";
+	var paragraph6HTML = "<p>The constant usage of poetic devices and the author’s vivid imagery make apparent the theme of the poem: one of true nature, of awe and of thanks, for the magnificent creation that is the tree.</p>";
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = paragraph1HTML + paragraph2HTML + paragraph3HTML + paragraph4HTML + paragraph5HTML + paragraph6HTML;
 }
