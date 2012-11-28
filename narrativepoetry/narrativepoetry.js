@@ -4,3 +4,7 @@ function lightBrigadePoem() {
 	document.getElementById('heading').innerHTML = headerHTML;
 	document.getElementById('contentArea').innerHTML = poemHTML;
 }
+
+function lightBrigadeAnalysis(){
+	var headerHTML = "<h2>para-by-para analysis</h2>";
+}
