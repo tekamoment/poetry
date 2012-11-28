@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Carlos' Poetry Portfolio </title>
+		<title> Carlos' Poetry Portfolio - Theme Poetry </title>
+		<link rel = "stylesheet" type = "text/css" href="../metrouicss/css/modern.css">
 	</head>
 	<body>
-	<p> Three poems of the same theme. </p>
+	<div id = "page">
+		<div class = "grid">
+		<div class = "page secondary with-sidebar">
+			<div class = "page-header">
+				<div class = "page-header-content">
+					<!-- probably move what's inside this div outside to fit with formatting-->
+					<h1> theme poetry: journeys </h1>
+					<!-- use this for back buttoning --> <a href="../index.html" class="back-button big page-back"></a>
+				</div>
+			</div>
+			
+			<div class = "page-sidebar">
+				<ul>
+					<li>
+						<a href="">Intro</a>
+					</li>
+					<li class="sticker sticker-color-yellow dropdown active" data-role="dropdown">
+						<a> Poems </a>
+						<ul class="sub-menu light sidebar-dropdown-menu closed">
+							<li><a href="#" onclick="aTunnel()">A Tunnel</a></li>
+							<li><a href="#" onclick="geographyLesson()">Geography Lesson</a></li>
+							<li><a href="#" onclick="theUnderground()">The Underground</a></li>
+						</ul>
+					</li>
+					<li class="sticker sticker-color-green">
+						<a href="#" onclick="">Theme Connection</a>
+					</li>
+				</ul>
+			</div>
+			
+			
+			<div class = "page-region">
+				<div class = "page-region-content">
+					<div class = "span10">
+						<h2 id = "heading"> intro </h2>
+						<div id = "contentArea">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			
+	<!-- JS INCLUSIONS
+	----------------------->
+	<script type="text/javascript" src="../js/jquery.js"> </script> <!-- JQUERY -->
+	<script type="text/javascript" src="../metrouicss/javascript/dropdown.js"></script> <!-- DROPDOWN -->
+	<script type="text/javascript" src="themepoetry.js"></script>
+
 	</body>
 </html>
