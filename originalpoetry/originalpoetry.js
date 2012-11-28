@@ -1,14 +1,14 @@
 
 function poetryOriginal() {
 	var headerHTML = "<h2>	poetry - original version </h2>";
-	var poemHTML = "<p> A poem is alive</p> <p> Spurring from the inside </p> <p> A poem is a tear </p> <p> From someone's many fears </p> <p> A poem is a smile </p><p> From moments all worthwhile </p> <p> A poem is a light </p> <p> Shining from day to night </p> <p> Poems will be forevermore </p><p> From first light, until we snore </p>";
+	var poemHTML = "<p> A poem is alive<br /> Spurring from the inside </p> <p> A poem is a tear <br /> From someone's many fears </p> <p> A poem is a smile <br /> From moments all worthwhile </p> <p> A poem is a light <br /> Shining from day to night </p> <p> Poems will be forevermore <br /> From first light, until we snore </p>";
 	document.getElementById('heading').innerHTML = headerHTML;
 	document.getElementById('contentArea').innerHTML = poemHTML;
 }
 
 function poetryRevised() {
 	var headerHTML = "<h2>	poetry - revised version </h2>";
-	var poemHTML = "<p> A poem is alive</p> <p> Spurring from the inside </p> <p> A poem is a tear </p> <p> From someone's many fears </p> <p> A poem is a smile </p><p> From moments all worthwhile </p> <p> A poem is a light </p> <p> Shining from day to night </p> <p> Poems will be forevermore </p><p> From first light, 'till final war. </p>";
+	var poemHTML = "<p> A poem is alive<br /> Spurring from the inside </p> <p> A poem is a tear <br /> From someone's many fears </p> <p> A poem is a smile <br /> From moments all worthwhile </p> <p> A poem is a light <br /> Shining from day to night </p> <p> Poems will be forevermore <br /> From first light, 'till final war. </p>";
 	document.getElementById('heading').innerHTML = headerHTML;
 	document.getElementById('contentArea').innerHTML = poemHTML;
 }
@@ -16,6 +16,8 @@ function poetryRevised() {
 function poetryAnalysis() {
 
 }
+
+// REMEMBER TO CSSIFY THE MIDDLE ALIGNING AND RIGHT-ALIGNMENT/ITALICIZING
 
 function crankRevised() {
 var headerHTML = "<h2>	crank models - revised version </h2>";
@@ -33,8 +35,8 @@ function singaporeOriginal() {
 
 function singaporeRevised() {
 	var headerHTML = "<h2>	singapore - revised version </h2>";
-	var poemHTML = "<p> I wandered through each perfect street</p> <p> Near where the Lion's roar rings clear </p> <p>And from the sounds of marching feet</p> <p>Resounds a cry that's full of fear</p><p> </p><p>In every face of every child</p><p>In every parents' worried look</p> <p>In every voice all men reviled</p> <p>The toil of living by the book</p> <p></p> <p>How the young citizen's sad sigh</p> <p>Falls on Parliament's silent halls</p> <p>And the hapless young man's cry</p><p>Runs in tears down Istana walls</p>";
-	var poemHTML2 = "<p> But most, through mall-filled streets I hear </p> <p> How seller's cries grow even louder </p> <p> Blast the old grandmothers' weakened ear </p> <p>And blights with fear the foreign onlooker </p>";
+	var poemHTML = "<p> I wandered through each perfect street <br /> Near where the Lion's roar rings clear <br /> And from the sounds of marching feet<br />Resounds a cry that's full of fear</p> <p>In every face of every child<br />In every parents' worried look<br />In every voice all men reviled<br />The toil of living by the book</p>  <p>How the young citizen's sad sigh<br />Falls on Parliament's silent halls<br />And the hapless young man's cry<br />Runs in tears down Istana walls</p>";
+	var poemHTML2 = "<p> But most, through mall-filled streets I hear <br /> How seller's cries grow even louder <br /> Blast the old grandmothers' weakened ear <br />And blights with fear the foreign onlooker </p>";
 	document.getElementById('heading').innerHTML = headerHTML;
 	document.getElementById('contentArea').innerHTML = poemHTML + poemHTML2;
 }
