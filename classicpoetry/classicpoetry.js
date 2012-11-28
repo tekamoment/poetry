@@ -1,3 +1,9 @@
+function biography() {
+	var headerHTML = "<h2>william shakespeare</h2>";
+	document.getElementById('heading').innerHTML = headerHTML;
+}
+
+
 function sonnet116() {
 	var headerHTML = "<h2>sonnet 116</h2>";
 	var poemHTML = "<p>Let me not to the marriage of true minds</p> <p>Admit impediments. Love is not love</p> <p>Which alters when it alteration finds,</p> <p>Or bends with the remover to remove:</p> <p>O no! it is an ever-fixed mark</p> <p>That looks on tempests and is never shaken;</p> <p>It is the star to every wandering bark,</p> <p>Whose worth's unknown, although his height be taken.</p> <p>Love's not Time's fool, though rosy lips and cheeks</p> <p>Within his bending sickle's compass come:</p> <p>Love alters not with his brief hours and weeks,</p> <p>But bears it out even to the edge of doom.</p> <p>If this be error and upon me proved,</p> <p>I never writ, nor no man ever loved.</p>";
