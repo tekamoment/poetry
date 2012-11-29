@@ -19,3 +19,7 @@ function theUnderground() {
 	document.getElementById('heading').innerHTML = headerHTML;
 	document.getElementById('contentArea').innerHTML = poemHTML;
 }
+
+function themeConnection() {
+	
+}
