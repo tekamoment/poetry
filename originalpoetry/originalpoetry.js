@@ -14,17 +14,44 @@ function poetryRevised() {
 }
 
 function poetryAnalysis() {
-
+	var headerHTML = "<h2> poetry - analysis </h2>";
+	var paragraph1HTML = "<p><em> The poem “Poetry” by Carlos Arcenas, written in 2012 is an example of free verse poetry.</em> </p>";
+	var paragraph2HTML = "<p>I chose this poem as this poem is a true representation, in my mind, of what a poem truly is. A poem is not merely a bunch of words lazily lying on a piece of paper, but it can be whatever someone wants it to be: a light, a tear, or a smile, in the words of the poem.</p>";
+	var paragraph3HTML = "<p>This poem is a free verse poem, but despite that classification, ‘Poetry has structure. The poem is composed of six stanzas of two lines, each stanza based on a particular object a poem can become, save for the last stanza, which explains the everlasting nature of a piece of poetry.</p>";
+	var paragraph4HTML = "<p>The poem is about the various forms a poem, normally seen as words set to a unique motion, can be seen as. Through ‘Poetry’, poems are seen as lights, tears, smiles and being alive, expressing the varied and wondrous nature of poetry. The last couplet notes that this art form will last forever, until the end of mankind.</p>";
+	var paragraph5HTML = "<p> </p>";
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = paragraph1HTML + paragraph2HTML + paragraph3HTML + paragraph4HTML + paragraph5HTML;
 }
 
 // REMEMBER TO CSSIFY THE MIDDLE ALIGNING AND RIGHT-ALIGNMENT/ITALICIZING
 
 function crankRevised() {
-var headerHTML = "<h2>	crank models - revised version </h2>";
-var generosityTitle = "<h3> generosity </h3>";
+var headerHTML = "<h2>crank model: generosity</h2>";
+// ADD ENCAPSULATORS (restrict span of columns to around 5/6)
+var divopen = "<div class = \"span6\">"
+var stanza1 = "<p> I’ve always loved these <br />small classes<br />where we do nothing.<br />Real work gets done.</p>";
+var speech1 = "<div class = \"text-right\"><em>Hey. Science. What? </em></div>";
+var stanza2 = "<p> And everyone else does <br /> work as well. <br /> Goes against it, <br /> but it works.</p>";
+var speech2 = "<div class = \"text-right\"><em>HEY! Need answers.</em></div>";
+var stanza3 = "<p>I respond. Normally<br />I’d be adamant,<br />but need to keep<br />the people happy.</p>";
+var speech3 = "<div class = \"text-right\"><em>Ok. </em></div>"; 
+var stanza4 = "<p>But in reality, <br />people keep asking<br />and asking,<br />and I get nothing.</p>"; 
+var speech4 = "<div class = \"text-right\"><em>English?</em></div>"; 
+var stanza5 = "<p>It’s been years.<br />Haven’t been invited <br />to anything.<br />Hear about it online, though.</p>"; 
+var speech5 = "<div class = \"text-right\"><em>HEY!</em></div>";
+var stanza6 = "<p>Again, I respond.<br />I do want more from<br />them. A token of thanks,<br />or at least A ‘thank you’. </p>";
+var speech6 = "<div class = \"text-right\"><em>Cool. Laptop? </em></div>";
+var stanza7 = "<p>I give, and I let them drain it.<br />Give, give, give, and<br />nothing in return. It’s in times<br />like these I wonder: </p>"; 
+var speech7 = "<div class = \"text-right\"><em>Can I have a real friend? </em></div>";
+var divclose = "</div>"
+
 document.getElementById('heading').innerHTML = headerHTML;	
-document.getElementById('contentArea').innerHTML = generosityTitle;
+document.getElementById('contentArea').innerHTML = divopen + stanza1 + speech1 + stanza2 + speech2 + stanza3 + speech3 + stanza4 + speech4 + stanza5 + speech5 + stanza6 + speech6 + stanza7 + speech7 + divclose;
 }
+
+
+// SINGAPORE
 
 function singaporeOriginal() {
 	var headerHTML = "<h2>	singapore - original version </h2>";
@@ -41,6 +68,32 @@ function singaporeRevised() {
 	document.getElementById('contentArea').innerHTML = poemHTML + poemHTML2;
 }
 
+function singaporeAnalysis(){
+	var headerHTML = "<h2> singapore - analysis </h2>";
+	var paragraph1HTML = "<p><em> The poem 'Singapore' by Carlos Arcenas, written in 2012 is an example of structured poetry, in this case, a lyric.</em> </p>";
+	var paragraph2HTML = "<p>I chose this poem as I felt that this was an excellent expression of the oppression ordinary Singaporeans feel on a day to day business. Even on my own adventures as a mere tourist in Singapore, I could feel the suppression and restriction of freedoms placed on the natives through their speech and through their body language. </p>";
+	var paragraph3HTML = "<p>This poem is a free verse poem, but despite that classification, ‘Poetry has structure. The poem is composed of six stanzas of two lines, each stanza based on a particular object a poem can become, save for the last stanza, which explains the everlasting nature of a piece of poetry.</p>";
+	var paragraph4HTML = "<p>The poem is about the various forms a poem, normally seen as words set to a unique motion, can be seen as. Through ‘Poetry’, poems are seen as lights, tears, smiles and being alive, expressing the varied and wondrous nature of poetry. The last couplet notes that this art form will last forever, until the end of mankind.</p>";
+	var paragraph5HTML = "<p> </p>";
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = paragraph1HTML + paragraph2HTML + paragraph3HTML + paragraph4HTML + paragraph5HTML;
+}
+
+// O CAPTAIN MY CAPTAIN
+// <div class = "indent"> PUT THAT IN THE CSS
+
+function oCaptainPoem() {
+	var headerHTML = "<h2> o captain! my captain! - walt whitman</h2>";
+	var stanza1 = "<p>O Captain! my Captain! our fearful trip is done; <br /> The ship has weather'd every rack, the prize we sought is won; <br /> The port is near, the bells I hear, the people all exulting, <br /> While follow eyes the steady keel, the vessel grim and daring:</p>";
+	var stanza2 = "<p> But O heart! heart! heart! <br /> O the bleeding drops of red, <br /> Where on the deck my Captain lies, <br /> Fallen cold and dead.</p></div>";
+	var stanza3 = "<p> O Captain! my Captain! rise up and hear the bells;<br />Rise up—for you the flag is flung—for you the bugle trills;<br />For you bouquets and ribbon'd wreaths—for you the shores a-crowding; <br />For you they call, the swaying mass, their eager faces turning;</p>";
+	var stanza4 = "<p>O captain! dear father!<br />This arm beneath your head;<br />It is some dream that on the deck, <br />You've fallen cold and dead. </p></div>";
+	var stanza5 = "<p>My Captain does not answer, his lips are pale and still; <br /> My father does not feel my arm, he has no pulse nor will; <br />The ship is anchor'd safe and sound, its voyage closed and done; <br />From fearful trip, the victor ship, comes in with object won;</p>";
+	var stanza6 = "<p>Exult, O shores, and ring, O bells! <br /> But I, with mournful tread, <br />Walk the deck my captain lies, <br />Fallen cold and dead. </p></div>";
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = stanza1 + stanza2 + stanza3 + stanza4 + stanza5 + stanza6;
+}
+
 function oCaptainAnalysis() {
 	var headerHTML = "<h2>	o captain! my captain! - original analysis </h2>";
 	var paragraph1HTML = "<p> The poem “O Captain! My Captain!” by famed poet Walt Whitman is an example of classic, structured poetry. “Captain” is a lyric, with strict conformation to rhythm and rhyme, a set quantity of lines and verses, and themed around either life, death, love or flora. Its classic classification is also justified through its usage of strict structure and literary language, such as apostrophes in words, religious references, and simplified ideals. </p>";
@@ -53,8 +106,10 @@ function oCaptainAnalysis() {
 	document.getElementById('contentArea').innerHTML = paragraph1HTML + paragraph2HTML + paragraph3HTML + paragraph4HTML + paragraph5HTML + paragraph6HTML;
 }
 
+
+
 function oCaptainRevised() {
-	var headerHTML = "<h2>	o captain! my captain! - original analysis </h2>";
+	var headerHTML = "<h2>	o captain! my captain! - revised analysis </h2>";
 	var paragraph1HTML = "<p> The poem “O Captain! My Captain!” by famed poet Walt Whitman is an example of classic, structured poetry. “Captain” is a lyric, with strict conformation to rhythm and rhyme, a set quantity of lines and verses, and themed around either life, death, love or flora. Its classic classification is also justified through its usage of strict structure and literary language, such as apostrophes in words, religious references, and simplified ideals. </p>";
 	var paragraph2HTML = "<p>The language of the poem is quite traditional, with literary language and proper grammar utilized throughout the piece. Words like “weather’d” and “ribbon’d”, old terms not present in the current vernacular, are peppered throughout. The style of poem also requires lines having correct grammar.</p>";
 	var paragraph3HTML = "<p>The poem is organized into three stanzas with eight lines each, with varying lengths and rhymes peppering each stanza. Each stanza is comprised of two halves, one half with long lines, and the succeeding half possessing shorter ones. The first half speaks in a positive tone about the conclusion of a voyage. The second half, however, talks grimly of the passing of the vessel’s captain. “O Captain! My Captain!”’s rhyme scheme is AABBCDED, repeating through every stanza. An interesting fact about the poem is that all D lines throughout rhyme, regardless of stanza. </p>";
@@ -66,6 +121,13 @@ function oCaptainRevised() {
 }
 
 // TREES
+
+function treesPoem() {
+	var headerHTML = "<h2> trees - joyce kilmer </h2>";
+	var poemHTML = "<p>I think that I will never see <br /> A poem lovely as a tree </p> <p> A tree whose hungry mouth is prest <br /> Against the sweet earth's flowing breast;</p> <p>A tree that looks at God all day, <br />And lifts her leafy arms to pray; </p> <p>A tree that may in summer wear <br />A nest of robins in her hair </p> <p>Upon whose bosom snow has lain, <br />Who intimately lives with rain. </p> <p> Poems are made by fools like me, <br /> But only God can make a tree.";
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = poemHTML;
+}
 
 function treesAnalysis() {
 	var newHTML = "<h2>	trees - original analysis</h2>";
