@@ -7,4 +7,13 @@ function lightBrigadePoem() {
 
 function lightBrigadeAnalysis(){
 	var headerHTML = "<h2>para-by-para analysis</h2>";
+	var stanza1 = "<h3>stanza one:</h3>" + "<p> The poem begins with the introduction of the Light Brigade: a company composed of ‘the brave six hundred’, riding into what appears to be a futile fight in the Valley of Death. A soldier, presumably the general of the Brigade, shouts for them to charge further on, deeper into the Valley, to begin a strike at the enemy’s guns. </p>";
+	var stanza2 = "<h3>stanza two:</h3>";
+	var stanza3 = "<h3>stanza three:</h3>";
+	var stanza4 = "<h3>stanza four:</h3>";
+	var stanza5 = "<h3>stanza five:</h3>";
+	var stanza6 = "<h3>stanza six:</h3>";
+	var summary = ;
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = stanza1 + stanza2 + stanza3 + stanza4 + stanza5 + stanza6 + summary;
 }
