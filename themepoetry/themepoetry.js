@@ -1,7 +1,3 @@
-function biography() {
-}
-
-
 function aTunnel() {
 	var headerHTML = "<h2>a tunnel - paul farley</h2>";
 	var poemHTML = "<p>A tunnel, unexpected. The carriage lights<br /> we didn't notice weren't on prove their point<br /> and a summer's day is cancelled out, its greens <br /> and scattered blue, forgotten in an instant</p> <p>that lasts the width of a down, level to level <br /> a blink in <em> London to Brighton in Four Minutes </em> <br /> that dampens mobiles - conversations end <br /> mid-sentence, before speakers can say </p> <p> '... a tunnel' - and the train fills with the sound </br> of itself, the rattle of rolling stock amplified <br /> and in the windows' flue a tool-shed scent, <br /> metal on metal, a points-flash photograph, </p> <p> and inside all of this a thought is clattering <br /> in a skull inside the train inside the tunnel <br /> inside great folds of time, like a cube of chalk <br /> in a puncture-repair tin at a roadside</p> <p>on a summer day like the one we'll re-enter <br /> at any moment, please, at any moment. </br> Voices are waiting at the other end </br> to pick up where we left off. 'It was a tunnel...'</p>";
