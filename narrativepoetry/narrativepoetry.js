@@ -13,7 +13,7 @@ function lightBrigadeAnalysis(){
 	var stanza4 = "<h3>stanza four:</h3>";
 	var stanza5 = "<h3>stanza five:</h3>";
 	var stanza6 = "<h3>stanza six:</h3>";
-	var summary = ;
+	var summary = "<h3>summary</h3>";
 	document.getElementById('heading').innerHTML = headerHTML;
 	document.getElementById('contentArea').innerHTML = stanza1 + stanza2 + stanza3 + stanza4 + stanza5 + stanza6 + summary;
 }
