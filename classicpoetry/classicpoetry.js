@@ -1,6 +1,9 @@
 function biography() {
 	var headerHTML = "<h2>william shakespeare</h2>";
+	var paragraph1 = "";
+	var bibliography = "<h3> bibliography: </h3>" + ""; 
 	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = paragraph1 + bibliography;
 }
 
 
