@@ -118,10 +118,13 @@ function infinityPoem(){
 
 function infinityAnalysis(){
 	var headerHTML = "<h2> infinity - analysis";
-	var paragraph1HTML = "<p> <em> The poem ‘Infinity’, penned by Nadhira Syed Azman in 2012, is a free verse poem about a lovestruck girl dreaming about how her relationship with her boyfriend will last.</em> </p>";
-	var paragraph2HTML = "";
+	var paragraph1HTML = "<p> <em> The poem 'Infinity', penned by Nadhira Syed Azman in 2012, is a free verse poem about a lovestruck girl dreaming about how her relationship with her boyfriend will last.</em> </p>";
+	var paragraph2HTML = "<p> Instead of being organized in the traditional stanza format, 'Infinity' is uniquely structured in the shape of the infinity sign, representing the title of the poem and the hope that the subject relationship and love for her man will last for infinity. The title of the poem is also centered in the middle of the sideways-eight to further enhance the meaning and shape of the poem, and show what is at the center of the lovestruck girl's mind.</p>";
+	var paragraph3HTML = "<p> 'Infinity' is about the author's experience with falling in love again. She dreams about how her dreaming under the stars brings back her first experience with him, when he first whispered in her ear: \"to be infinity and beyond\". This experience made her turn her own thoughts that she would never be in love again after her failed first fling; instead, her new relationship makes her feel like the 'world seems right'and his eyes 'turn her to stone'. It seems true that her relationship will last for infinity, for the wonderfully strong feelings both of them feel for one another.</p>";
+	var paragraph4HTML = "<p> 'Infinity' is set in a hopeful mood, as the words of the subject show a wish for her relationship to last as long as the title promises. The author went from not believing in love to wishing that her newfound relationship will last forever.</p>";
+	var paragraph5HTML = "<p> There are no poetic devices in this poem; this free verse poem is written as prose, like the author is talking to herself, or writing in a diary. The lack of devices somehow makes the poem feel more personal and powerful; she didn't use any needless metaphors or rhyme to convey her true love and feelings for him, and his love for her. Through the words and the mood of the author, 'Infinity''s theme becomes apparent: that that being in love is one of the best things that can ever happen to you. She remarks about  how \"the whole world seems right\" and how she wishes that \"someday our dream can become magical\". </p>";
 	document.getElementById('heading').innerHTML = headerHTML;
-	document.getElementById('contentArea').innerHTML = paragraph1HTML;
+	document.getElementById('contentArea').innerHTML = paragraph1HTML + paragraph2HTML + paragraph3HTML;
 }
 
 // O CAPTAIN MY CAPTAIN
