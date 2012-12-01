@@ -21,5 +21,10 @@ function theUnderground() {
 }
 
 function themeConnection() {
-	
+	var headerHTML = "<h2>the theme connection</h2>";
+	var aTunnel = "<h3> a tunnel - theme </h3> <p> The theme of ‘A Tunnel’ is about the unexpected things in life, and how everything changes with a single moment. The sudden passage of the train through a tunnel brings all the activity on the carriage to a halt, enveloping the author in complete silence. The author describes this fleeting moment in a variety of ways, commenting on the eerie atmosphere, and comparing the passengers’ thoughts to ‘a cube of chalk in a puncture-repair tin at a roadside on a summer day’. Once the moment passes, though, everything returns to as it were, acting like the tunnel was never there.  </p>";
+	var geographyLesson = "<h3> geography lesson - theme </h3> <p> The theme of 'Geography Lesson' is of dreaming and aspirations, conveyed by the geography teacher, his musings, and the posters plastered on his walls. The subject's lecturer spoke about how he was going to visit these places seen all over these posters, to venture to places unknown. His sudden illness in his final term sadly took away his chances and his aspirations. The subject, inspired by the words of his teacher, travelled 'to all those places my teacher taught me to love' - but sadly 'which he never knew'. </p>";
+	var theUnderground = "<h3> the underground - theme </h3>";
+	document.getElementById('heading').innerHTML = headerHTML;
+	document.getElementById('contentArea').innerHTML = aTunnel + geographyLesson;
 }
