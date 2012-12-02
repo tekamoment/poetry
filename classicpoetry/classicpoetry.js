@@ -7,7 +7,7 @@ function biography() {
 	var tombstoneInscription = "<p> These words were inscribed on his tombstone: <br /> Good friend for Jesus' sake forbear<br />To dig the dust enclosed here!<br />Blessed be the man that spares these stones,<br />And curst be he who moves my bones.</p>";
 	var bibliography = "<h3> bibliography: </h3>" + "";
 	document.getElementById('heading').innerHTML = headerHTML;
-	document.getElementById('contentArea').innerHTML = paragraph1 + paragraph3 + paragraph4 = tombstoneInscription + bibliography;
+	document.getElementById('contentArea').innerHTML = paragraph1 + paragraph2 + paragraph3 + paragraph4 = tombstoneInscription + bibliography;
 }
 
 
