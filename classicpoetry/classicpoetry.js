@@ -1,6 +1,7 @@
 function biography() {
 	var headerHTML = "<h2>william shakespeare</h2>";
-	var paragraph1 = "<p> William Shakespeare, known affectionately worldwide as The Eternal Bard, was baptized on the 26th of April, 1564 in Stratford-upon-Avon, England.</p>";
+	var paragraph1 = "<p> William Shakespeare, known affectionately worldwide as The Eternal Bard, was baptized on the 26th of April, 1564 in Stratford-upon-Avon, England. Born to John Shakespeare and  Mary Arden, an alderman and a daughter of an affluent farmer, Shakespeare was born to a well-off family, offering him a financial base to launch his career from. He was was educated at the King's New School in Stratford, a grammar school, which, at the time, was the equivalent of a modern and high-class college. At the age of 18, he was married to Anne Hathaway, a woman 8 years his senior in 1583. Just one year later, she gave birth to their first daughter, Susanna. The year later Anne bore fraternal twins named Judith and Hamnet, the latter of which sadly passed away at the age of 11.</p>";
+	var paragraph2 = "<p> </p>";
 	var tombstoneInscription = "<p> These words were inscribed on his tombstone: <br /> Good friend for Jesus' sake forbear<br />To dig the dust enclosed here!<br />Blessed be the man that spares these stones,<br />And curst be he who moves my bones.</p>";
 	var bibliography = "<h3> bibliography: </h3>" + ""; 
 	document.getElementById('heading').innerHTML = headerHTML;
